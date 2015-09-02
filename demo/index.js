@@ -7,10 +7,14 @@ import '../style.css';
 import React from 'react';
 import App from './app.jsx';
 
+// import through root
 import {form} from 'jquery-ui';
 
+// import a specific part
+import labels from 'jquery-ui/ui/labels';
+
 // prints out ok! you could use form now
-console.log('form', form);
+console.log('form', form, 'labels', labels);
 
 main();
 
