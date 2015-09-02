@@ -20,6 +20,7 @@
   },
   "main": "dist-modules/index.js",
   "dependencies": {
+    "jquery": "^2.1.4",
     "jquery-ui": "bebraw/jquery-ui#webpack"
   },
   "devDependencies": {
