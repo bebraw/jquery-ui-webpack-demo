@@ -7,6 +7,11 @@ import '../style.css';
 import React from 'react';
 import App from './app.jsx';
 
+import {form} from 'jquery-ui';
+
+// prints out ok! you could use form now
+console.log('form', form);
+
 main();
 
 function main() {
