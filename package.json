@@ -19,7 +19,9 @@
     "postpublish": "npm run gh-pages && npm run deploy-gh-pages"
   },
   "main": "dist-modules/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "jquery-ui": "bebraw/jquery-ui#webpack"
+  },
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-core": "^5.8.23",
