@@ -8,13 +8,14 @@ import React from 'react';
 import App from './app.jsx';
 
 // import through root
-import {form} from 'jquery-ui';
+//import {form} from 'jquery-ui';
 
 // import a specific part
-import labels from 'jquery-ui/ui/labels';
+import jquery from 'jquery';
+import dialog from 'jquery-ui/dialog';
 
 // prints out ok! you could use form now
-console.log('form', form, 'labels', labels);
+console.log('dialog', dialog, Object.keys(dialog), Object.keys(jquery).dialog);
 
 main();
 

@@ -21,7 +21,7 @@
   "main": "dist-modules/index.js",
   "dependencies": {
     "jquery": "^2.1.4",
-    "jquery-ui": "bebraw/jquery-ui#webpack"
+    "jquery-ui": "^1.10.5"
   },
   "devDependencies": {
     "babel": "^5.8.23",
