@@ -12,7 +12,7 @@ import App from './app.jsx';
 
 // import a specific part
 import jquery from 'jquery';
-import dialog from 'jquery-ui/dialog';
+import dialog from 'jquery-ui/ui/widgets/dialog';
 
 // prints out ok! you could use form now
 console.log('dialog', dialog, Object.keys(dialog), Object.keys(jquery).dialog);
